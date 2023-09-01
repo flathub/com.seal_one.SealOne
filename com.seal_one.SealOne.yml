@@ -1,6 +1,6 @@
 id: com.seal_one.SealOne
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 tags:
   - proprietary
@@ -35,7 +35,7 @@ modules:
           - tail -n +4 SOInstLin.sh | tar -xzf -
       - type: extra-data
         filename: SOInstLin.sh
-        url: https://seal-one.com/SOInstLin.sh
+        url: https://seal-one.com/downloads/SOInstLin.sh
         sha256: 406469e24bf523aaf7b2a1e1b7d681b54e814dd3e365c33fe5b3e25fc491e82b
         size: 591728
         x-checker-data:
