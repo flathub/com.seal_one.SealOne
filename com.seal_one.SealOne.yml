@@ -32,7 +32,7 @@ modules:
       - type: script
         dest-filename: apply_extra
         commands:
-          - tail -n +4 SOInstLin.sh | tar -xzf -
+          - tail -n +4 SOInstLin.sh | tar --no-same-owner -xzf -
       - type: extra-data
         filename: SOInstLin.sh
         url: https://seal-one.com/downloads/SOInstLin.sh
