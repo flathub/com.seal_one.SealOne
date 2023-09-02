@@ -13,6 +13,7 @@ finish-args:
   - --persist=.sealone
 modules:
   - shared-modules/gtk2/gtk2.json
+  - shared-modules/gtk2/gtk2-common-themes.json
   - name: sealone
     buildsystem: simple
     build-commands:
