@@ -8,6 +8,10 @@
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
+
+  <developer id="com.seal_one">
+    <name translate="no">Seal One AG</name>
+  </developer>
   
   <description>
     <p>
@@ -24,9 +28,11 @@
   <screenshots>
     <screenshot type="default">
       <image>https://github.com/JBBgameich/com.seal_one.SealOne/blob/main/screenshots/firststart.png?raw=true</image>
+      <caption>First launch</caption>
     </screenshot>
     <screenshot>
       <image>https://github.com/JBBgameich/com.seal_one.SealOne/blob/main/screenshots/settings.png?raw=true</image>
+      <caption>Settings</caption>
     </screenshot>
   </screenshots>
 
