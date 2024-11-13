@@ -1,6 +1,6 @@
 id: com.seal_one.SealOne
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 tags:
   - proprietary
@@ -13,7 +13,6 @@ finish-args:
   - --persist=.sealone
 modules:
   - shared-modules/gtk2/gtk2.json
-  - shared-modules/gtk2/gtk2-common-themes.json
   - name: sealone
     buildsystem: simple
     build-commands:
